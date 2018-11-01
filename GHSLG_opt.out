@@ -1,7 +1,7 @@
 
 Running Job 1 of 1 GHSLG_opt.in
-qchem GHSLG_opt.in_27977.0 /scr/c295_krishna/137178/qchem27977/ 1
-/usr/software/qchem_511/exe/qcprog.exe_s GHSLG_opt.in_27977.0 /scr/c295_krishna/137178/qchem27977/
+qchem GHSLG_opt.in_9921.0 /scr/c295_krishna/137180/qchem9921/ 1
+/usr/software/qchem_511/exe/qcprog.exe_s GHSLG_opt.in_9921.0 /scr/c295_krishna/137180/qchem9921/
 Check license passed
 
                   Welcome to Q-Chem
@@ -73,12 +73,12 @@ Check license passed
  Parts of Q-Chem use Armadillo 8.300.2 (Tropical Shenanigans).
  http://arma.sourceforge.net/
 
- Q-Chem begins on Wed Oct 31 20:41:06 2018  
+ Q-Chem begins on Wed Oct 31 21:09:06 2018  
 
-Host: cub-0-7.local
+Host: cub-0-21.local
 0
 
-     Scratch files written to /scr/c295_krishna/137178/qchem27977//
+     Scratch files written to /scr/c295_krishna/137180/qchem9921//
  Aug318 |scratch|qcdevops|jenkins|workspace|build_RNUM -1
 Processing $rem in /usr/software/qchem_511/config/preferences.
  MEM_TOTAL  2000 

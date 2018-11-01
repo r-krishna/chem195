@@ -1,7 +1,7 @@
 
 Running Job 1 of 1 serine_opt.in
-qchem serine_opt.in_9659.0 /scr/c295_krishna/137177/qchem9659/ 1
-/usr/software/qchem_511/exe/qcprog.exe_s serine_opt.in_9659.0 /scr/c295_krishna/137177/qchem9659/
+qchem serine_opt.in_10793.0 /scr/c295_krishna/137179/qchem10793/ 1
+/usr/software/qchem_511/exe/qcprog.exe_s serine_opt.in_10793.0 /scr/c295_krishna/137179/qchem10793/
 Check license passed
 
                   Welcome to Q-Chem
@@ -73,12 +73,12 @@ Check license passed
  Parts of Q-Chem use Armadillo 8.300.2 (Tropical Shenanigans).
  http://arma.sourceforge.net/
 
- Q-Chem begins on Wed Oct 31 20:40:51 2018  
+ Q-Chem begins on Wed Oct 31 21:09:06 2018  
 
-Host: cub-0-22.local
+Host: cub-0-18.local
 0
 
-     Scratch files written to /scr/c295_krishna/137177/qchem9659//
+     Scratch files written to /scr/c295_krishna/137179/qchem10793//
  Aug318 |scratch|qcdevops|jenkins|workspace|build_RNUM -1
 Processing $rem in /usr/software/qchem_511/config/preferences.
  MEM_TOTAL  2000 
