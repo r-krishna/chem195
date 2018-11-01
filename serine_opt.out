@@ -1,7 +1,7 @@
 
 Running Job 1 of 1 serine_opt.in
-qchem serine_opt.in_13546.0 /scr/c295_krishna/137203/qchem13546/ 1
-/usr/software/qchem_511/exe/qcprog.exe_s serine_opt.in_13546.0 /scr/c295_krishna/137203/qchem13546/
+qchem serine_opt.in_10719.0 /scr/c295_krishna/137206/qchem10719/ 1
+/usr/software/qchem_511/exe/qcprog.exe_s serine_opt.in_10719.0 /scr/c295_krishna/137206/qchem10719/
 Check license passed
 
                   Welcome to Q-Chem
@@ -73,23 +73,21 @@ Check license passed
  Parts of Q-Chem use Armadillo 8.300.2 (Tropical Shenanigans).
  http://arma.sourceforge.net/
 
- Q-Chem begins on Thu Nov  1 00:48:51 2018  
+ Q-Chem begins on Thu Nov  1 00:52:21 2018  
 
-Host: cub-0-19.local
+Host: cub-0-13.local
 0
 
-     Scratch files written to /scr/c295_krishna/137203/qchem13546//
+     Scratch files written to /scr/c295_krishna/137206/qchem10719//
  Aug318 |scratch|qcdevops|jenkins|workspace|build_RNUM -1
 Processing $rem in /usr/software/qchem_511/config/preferences.
  MEM_TOTAL  2000 
-Input Ideriv = 2
-Curr. Ideriv = -1
-Max.  Ideriv = 2
 
-Checking the input file for inconsistencies... Geometry optimization for one atom does not make sense.
+ Q-Chem fatal error occurred in module qparser/MoleculeInput.C, line 531:
 
+ No centers to read in MoleculeInput::getCartesians!
 
 
-
-	The Q-Chem input file has failed to pass inspection
-
+ Please submit a crash report at q-chem.com/reporter 
+ 
+ 
