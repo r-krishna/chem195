@@ -1,0 +1,28 @@
+#!/bin/tcsh -f
+#$ -cwd
+#$ -o GHSLG_malonyl_transition_state.job.o$JOB_ID
+#$ -q cubs.q
+#$ -j y
+#$ -N q-GHSLG_malonyl_transition_state
+#$ -pe shared 16
+
+
+setenv QC /usr/software/qchem_511
+source /usr/software/qchem_511/MGCF_qcenv.csh
+
+cd $SGE_O_WORKDIR
+/bin/hostname
+
+set echo
+setenv PATH /usr/software/nbo6_g16/bin:${PATH}
+setenv NBOEXE /usr/software/nbo6_g16/bin/nbo6.i8.exe
+awk '{ print $1 }' $PE_HOSTFILE > GHSLG_malonyl_transition_state.nodes
+setenv QCMACHINEFILE GHSLG_malonyl_transition_state.nodes
+setenv QCSCRATCH $SGE_O_WORKDIR/$JOB_ID
+/bin/mkdir -p $QCSCRATCH
+setenv QCLOCALSCR /scr/$USER/$JOB_ID
+/bin/mkdir -p $QCLOCALSCR
+/usr/bin/env
+
+/usr/software/qchem_511/bin/qchem -nt 16 GHSLG_malonyl_transition_state.in GHSLG_malonyl_transition_state.out
+

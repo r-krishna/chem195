@@ -1,18 +1,18 @@
 Warning: no access to tty (Bad file descriptor).
 Thus no job control in this shell.
-cub-0-12.local
-setenv PATH /usr/software/nbo6_g16/bin:/usr/software/qchem_511/exe:/usr/software/qchem_511/bin:/usr/software/nbo6_g16/bin:/opt/openmpi/bin:/usr/lib64/qt-3.3/bin:/tmp/137267.1.cubs.q:/usr/local/bin:/bin:/usr/bin:/opt/bio/ncbi/bin:/opt/bio/mpiblast/bin:/opt/bio/EMBOSS/bin:/opt/bio/clustalw/bin:/opt/bio/tcoffee/bin:/opt/bio/hmmer/bin:/opt/bio/phylip/exe:/opt/bio/mrbayes:/opt/bio/fasta:/opt/bio/glimmer/bin:/opt/bio/glimmer/scripts:/opt/bio/gmap/bin:/opt/bio/tigr/bin:/opt/bio/autodocksuite/bin:/opt/bio/wgs/bin:/opt/ganglia/bin:/opt/ganglia/sbin:/usr/java/latest/bin:/opt/rocks/bin:/opt/condor/bin:/opt/condor/sbin:/opt/gridengine/bin/linux-x64
+cub-0-6.local
+setenv PATH /usr/software/nbo6_g16/bin:/usr/software/qchem_511/exe:/usr/software/qchem_511/bin:/usr/software/nbo6_g16/bin:/opt/openmpi/bin:/usr/lib64/qt-3.3/bin:/tmp/152665.1.cubs.q:/usr/local/bin:/bin:/usr/bin:/opt/bio/ncbi/bin:/opt/bio/mpiblast/bin:/opt/bio/EMBOSS/bin:/opt/bio/clustalw/bin:/opt/bio/tcoffee/bin:/opt/bio/hmmer/bin:/opt/bio/phylip/exe:/opt/bio/mrbayes:/opt/bio/fasta:/opt/bio/glimmer/bin:/opt/bio/glimmer/scripts:/opt/bio/gmap/bin:/opt/bio/tigr/bin:/opt/bio/autodocksuite/bin:/opt/bio/wgs/bin:/opt/ganglia/bin:/opt/ganglia/sbin:/usr/java/latest/bin:/opt/rocks/bin:/opt/condor/bin:/opt/condor/sbin:/opt/gridengine/bin/linux-x64
 setenv NBOEXE /usr/software/nbo6_g16/bin/nbo6.i8.exe
-awk { print $1 } /opt/gridengine/default/spool/cub-0-12/active_jobs/137267.1/pe_hostfile
-setenv QCMACHINEFILE GHSQG_opt_b97-m.nodes
-setenv QCSCRATCH /home/c295_krishna/chem195/chem195/137267
-/bin/mkdir -p /home/c295_krishna/chem195/chem195/137267
-setenv QCLOCALSCR /scr/c295_krishna/137267
-/bin/mkdir -p /scr/c295_krishna/137267
+awk { print $1 } /opt/gridengine/default/spool/cub-0-6/active_jobs/152665.1/pe_hostfile
+setenv QCMACHINEFILE GHSLG_linked_freeSNAC_b97m.nodes
+setenv QCSCRATCH /home/c295_krishna/chem195/chem195/152665
+/bin/mkdir -p /home/c295_krishna/chem195/chem195/152665
+setenv QCLOCALSCR /scr/c295_krishna/152665
+/bin/mkdir -p /scr/c295_krishna/152665
 /usr/bin/env
 TERM=linux
 SGE_CELL=default
-PATH=/usr/software/nbo6_g16/bin:/usr/software/qchem_511/exe:/usr/software/qchem_511/bin:/usr/software/nbo6_g16/bin:/opt/openmpi/bin:/usr/lib64/qt-3.3/bin:/tmp/137267.1.cubs.q:/usr/local/bin:/bin:/usr/bin:/opt/bio/ncbi/bin:/opt/bio/mpiblast/bin:/opt/bio/EMBOSS/bin:/opt/bio/clustalw/bin:/opt/bio/tcoffee/bin:/opt/bio/hmmer/bin:/opt/bio/phylip/exe:/opt/bio/mrbayes:/opt/bio/fasta:/opt/bio/glimmer/bin:/opt/bio/glimmer/scripts:/opt/bio/gmap/bin:/opt/bio/tigr/bin:/opt/bio/autodocksuite/bin:/opt/bio/wgs/bin:/opt/ganglia/bin:/opt/ganglia/sbin:/usr/java/latest/bin:/opt/rocks/bin:/opt/condor/bin:/opt/condor/sbin:/opt/gridengine/bin/linux-x64
+PATH=/usr/software/nbo6_g16/bin:/usr/software/qchem_511/exe:/usr/software/qchem_511/bin:/usr/software/nbo6_g16/bin:/opt/openmpi/bin:/usr/lib64/qt-3.3/bin:/tmp/152665.1.cubs.q:/usr/local/bin:/bin:/usr/bin:/opt/bio/ncbi/bin:/opt/bio/mpiblast/bin:/opt/bio/EMBOSS/bin:/opt/bio/clustalw/bin:/opt/bio/tcoffee/bin:/opt/bio/hmmer/bin:/opt/bio/phylip/exe:/opt/bio/mrbayes:/opt/bio/fasta:/opt/bio/glimmer/bin:/opt/bio/glimmer/scripts:/opt/bio/gmap/bin:/opt/bio/tigr/bin:/opt/bio/autodocksuite/bin:/opt/bio/wgs/bin:/opt/ganglia/bin:/opt/ganglia/sbin:/usr/java/latest/bin:/opt/rocks/bin:/opt/condor/bin:/opt/condor/sbin:/opt/gridengine/bin/linux-x64
 RUNLEVEL=3
 runlevel=3
 PWD=/home/c295_krishna/chem195/chem195
@@ -29,28 +29,28 @@ UPSTART_INSTANCE=
 UPSTART_EVENTS=runlevel
 UPSTART_JOB=rc
 _=/opt/gridengine/bin/linux-x64/sge_execd
-REQNAME=q-GHSQG_opt_b97-m
+REQNAME=q-GHSLG_linked_freeSNAC_b97m
 HOME=/home/c295_krishna
 SHELL=/bin/csh
 USER=c295_krishna
 LOGNAME=c295_krishna
-JOB_NAME=q-GHSQG_opt_b97-m
-JOB_SCRIPT=/opt/gridengine/default/spool/cub-0-12/job_scripts/137267
+JOB_NAME=q-GHSLG_linked_freeSNAC_b97m
+JOB_SCRIPT=/opt/gridengine/default/spool/cub-0-6/job_scripts/152665
 SGE_BINARY_PATH=/opt/gridengine/bin/linux-x64
-REQUEST=q-GHSQG_opt_b97-m
-HOSTNAME=cub-0-12.local
+REQUEST=q-GHSLG_linked_freeSNAC_b97m
+HOSTNAME=cub-0-6.local
 QUEUE=cubs.q
-JOB_ID=137267
+JOB_ID=152665
 ENVIRONMENT=BATCH
 ARC=linux-x64
 NQUEUES=1
 NSLOTS=8
 NHOSTS=1
 RESTARTED=0
-TMPDIR=/tmp/137267.1.cubs.q
-TMP=/tmp/137267.1.cubs.q
+TMPDIR=/tmp/152665.1.cubs.q
+TMP=/tmp/152665.1.cubs.q
 PE=shared
-PE_HOSTFILE=/opt/gridengine/default/spool/cub-0-12/active_jobs/137267.1/pe_hostfile
+PE_HOSTFILE=/opt/gridengine/default/spool/cub-0-6/active_jobs/152665.1/pe_hostfile
 SGE_RSH_COMMAND=builtin
 SGE_O_HOME=/home/c295_krishna
 SGE_O_LOGNAME=c295_krishna
@@ -65,17 +65,17 @@ SGE_TASK_LAST=undefined
 SGE_TASK_STEPSIZE=undefined
 SGE_ARCH=linux-x64
 SGE_ACCOUNT=sge
-SGE_JOB_SPOOL_DIR=/opt/gridengine/default/spool/cub-0-12/active_jobs/137267.1
+SGE_JOB_SPOOL_DIR=/opt/gridengine/default/spool/cub-0-6/active_jobs/152665.1
 SGE_STDIN_PATH=/dev/null
-SGE_STDOUT_PATH=/home/c295_krishna/chem195/chem195/GHSQG_opt_b97-m.job.o137267
-SGE_STDERR_PATH=/home/c295_krishna/chem195/chem195/GHSQG_opt_b97-m.job.o137267
+SGE_STDOUT_PATH=/home/c295_krishna/chem195/chem195/GHSLG_linked_freeSNAC_b97m.job.o152665
+SGE_STDERR_PATH=/home/c295_krishna/chem195/chem195/GHSLG_linked_freeSNAC_b97m.job.o152665
 SGE_CWD_PATH=/home/c295_krishna/chem195/chem195
 HOSTTYPE=x86_64-linux
 VENDOR=unknown
 OSTYPE=linux
 MACHTYPE=x86_64
 GROUP=folks
-HOST=cub-0-12.local
+HOST=cub-0-6.local
 MAIL=/var/spool/mail/c295_krishna
 ANT_HOME=/opt/rocks
 BIOROLL=/opt/bio
@@ -104,7 +104,7 @@ OMPI_MCA_btl=self,sm,tcp
 _LMFILES_=/usr/share/Modules/modulefiles/rocks-openmpi
 MPICH_PROCESS_GROUP=no
 QC=/usr/software/qchem_511
-QCSCRATCH=/home/c295_krishna/chem195/chem195/137267
+QCSCRATCH=/home/c295_krishna/chem195/chem195/152665
 NBOEXE=/usr/software/nbo6_g16/bin/nbo6.i8.exe
 QCPLATFORM=LINUX_Ix86_64
 QCAUX=/usr/software/qchem_511/qcaux
@@ -112,18 +112,18 @@ QCMPI=seq
 QCRSH=ssh
 QCPROG=/usr/software/qchem_511/exe/qcprog.exe
 QCPROG_S=/usr/software/qchem_511/exe/qcprog.exe_s
-QCMACHINEFILE=GHSQG_opt_b97-m.nodes
-QCLOCALSCR=/scr/c295_krishna/137267
-/usr/software/qchem_511/bin/qchem -nt 8 GHSQG_opt_b97-m.in GHSQG_opt_b97-m.out
+QCMACHINEFILE=GHSLG_linked_freeSNAC_b97m.nodes
+QCLOCALSCR=/scr/c295_krishna/152665
+/usr/software/qchem_511/bin/qchem -nt 8 GHSLG_linked_freeSNAC_b97m.in GHSLG_linked_freeSNAC_b97m.out
 You are running Q-Chem version: 5.1.1
 
 #
 # job setting
 #
-local host:  cub-0-12.local
+local host:  cub-0-6.local
 current dir: /home/c295_krishna/chem195/chem195
-input file:  GHSQG_opt_b97-m.in
-output file: GHSQG_opt_b97-m.out
+input file:  GHSLG_linked_freeSNAC_b97m.in
+output file: GHSLG_linked_freeSNAC_b97m.out
 nprocs     : 1
 nthreads   : 8
 #
@@ -138,14 +138,14 @@ QCMPI:       seq
 #
 # qchem directory setting
 #
-qcrun:       qchem11331
-QCSCRATCH:   /home/c295_krishna/chem195/chem195/137267
-QCLOCALSCR:  /scr/c295_krishna/137267
-QCTMPDIR:    /scr/c295_krishna/137267
-QCFILEPREF:  /scr/c295_krishna/137267/qchem11331
+qcrun:       qchem8302
+QCSCRATCH:   /home/c295_krishna/chem195/chem195/152665
+QCLOCALSCR:  /scr/c295_krishna/152665
+QCTMPDIR:    /scr/c295_krishna/152665
+QCFILEPREF:  /scr/c295_krishna/152665/qchem8302
 QCSAVEDIR:   
-workdirs:    /scr/c295_krishna/137267/qchem11331
-workdir0:    /scr/c295_krishna/137267/qchem11331
+workdirs:    /scr/c295_krishna/152665/qchem8302
+workdir0:    /scr/c295_krishna/152665/qchem8302
 partmpdirs =  
 #
 # parallel setting
@@ -154,13 +154,13 @@ partmpdirs =
 QCRSH:           ssh
 QCMPI:           seq
 QCMPIRUN:        
-QCMACHINEFILE:   GHSQG_opt_b97-m.nodes
-cub-0-12.local
+QCMACHINEFILE:   GHSLG_linked_freeSNAC_b97m.nodes
+cub-0-6.local
 
 #
 # env setting
 #
 exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
-remove work dirs /scr/c295_krishna/137267/qchem11331.0 -- /scr/c295_krishna/137267/qchem11331.0
-rm -rf /scr/c295_krishna/137267/qchem11331.0
-rm -rf /scr/c295_krishna/137267/qchem11331
+remove work dirs /scr/c295_krishna/152665/qchem8302.0 -- /scr/c295_krishna/152665/qchem8302.0
+rm -rf /scr/c295_krishna/152665/qchem8302.0
+rm -rf /scr/c295_krishna/152665/qchem8302
