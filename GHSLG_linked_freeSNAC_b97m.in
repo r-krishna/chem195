@@ -99,6 +99,7 @@ O        -13.82605       -1.69730        0.19464
 $end
 
 $rem
+   MEM_TOTAL 3000
    JOBTYPE           opt
    EXCHANGE        B97M-V            
    BASIS             6-31G*
