@@ -82,6 +82,6 @@ $end
 
 $rem
    JOBTYPE           opt
-   EXCHANGE        B97M-V            
+   EXCHANGE        B3LYP            
    BASIS             6-31G*
 $end
