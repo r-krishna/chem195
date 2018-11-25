@@ -92,7 +92,6 @@ $end
 
 $rem
    BASIS  =  6-31G
-   GUI  =  2
    JOB_TYPE  =  Optimization
    METHOD  =  B3LYP
    SCF_CONVERGENCE  =  8
