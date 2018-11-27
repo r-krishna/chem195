@@ -96,5 +96,6 @@ $rem
    BASIS  =  6-31G
    JOB_TYPE  =  Optimization
    METHOD  =  B3LYP
-   SCF_CONVERGENCE  =  8
+   SCF_CONVERGENCE  =  500
+   SCF_ALGORITHM = DIIS_GDM  
 $end
