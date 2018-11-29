@@ -1,0 +1,376 @@
+
+Running Job 1 of 1 GHSLG_malonyl_tetrahedral.in
+qchem GHSLG_malonyl_tetrahedral.in_31491.0 /scr/c295_krishna/156882/qchem31491/ 1
+/usr/software/qchem_511/exe/qcprog.exe_s GHSLG_malonyl_tetrahedral.in_31491.0 /scr/c295_krishna/156882/qchem31491/
+Check license passed
+
+                  Welcome to Q-Chem
+     A Quantum Leap Into The Future Of Chemistry
+
+
+ Q-Chem 5.1, Q-Chem, Inc., Pleasanton, CA (2018)
+
+ Yihan Shao,  Zhengting Gan,  E. Epifanovsky,  A. T. B. Gilbert,  M. Wormit,  
+ J. Kussmann,  A. W. Lange,  A. Behn,  Jia Deng,  Xintian Feng,  D. Ghosh,  
+ M. Goldey,  P. R. Horn,  L. D. Jacobson,  I. Kaliman,  T. Kus,  A. Landau,  
+ Jie Liu,  E. I. Proynov,  R. M. Richard,  R. P. Steele,  E. J. Sundstrom,  
+ H. L. Woodcock III,  P. M. Zimmerman,  D. Zuev,  B. Albrecht,  E. Alguire,  
+ S. A. Baeppler,  D. Barton,  Z. Benda,  Y. A. Bernard,  E. J. Berquist,  
+ K. B. Bravaya,  H. Burton,  D. Casanova,  Chun-Min Chang,  Yunqing Chen,  
+ A. Chien,  K. D. Closser,  M. P. Coons,  S. Coriani,  S. Dasgupta,  
+ A. L. Dempwolff,  M. Diedenhofen,  Hainam Do,  R. G. Edgar,  Po-Tung Fang,  
+ S. Faraji,  S. Fatehi,  Qingguo Feng,  K. D. Fenk,  J. Fosso-Tande,  
+ Qinghui Ge,  A. Ghysels,  G. Gidofalvi,  J. Gomes,  J. Gonthier,  A. Gunina,  
+ D. Hait,  M. W. D. Hanson-Heine,  P. H. P. Harbach,  A. W. Hauser,  
+ J. E. Herr,  E. G. Hohenstein,  Z. C. Holden,  Kerwin Hui,  B. C. Huynh,  
+ T.-C. Jagau,  Hyunjun Ji,  B. Kaduk,  K. Khistyaev,  Jaehoon Kim,  
+ P. Klunzinger,  K. Koh,  D. Kosenkov,  L. Koulias,  T. Kowalczyk,  
+ C. M. Krauter,  A. Kunitsa,  Ka Un Lao,  A. Laurent,  K. V. Lawler,  
+ Joonho Lee,  D. Lefrancois,  S. Lehtola,  D. S. Levine,  Yi-Pei Li,  
+ You-Sheng Lin,  Fenglai Liu,  E. Livshits,  A. Luenser,  P. Manohar,  
+ E. Mansoor,  S. F. Manzer,  Shan-Ping Mao,  Yuezhi Mao,  N. Mardirossian,  
+ A. V. Marenich,  T. Markovich,  L. A. Martinez-Martinez,  S. A. Maurer,  
+ N. J. Mayhall,  S. C. McKenzie,  J.-M. Mewes,  A. F. Morrison,  
+ J. W. Mullinax,  K. Nanda,  T. S. Nguyen-Beck,  R. Olivares-Amaya,  
+ J. A. Parkhill,  T. M. Perrine,  F. Plasser,  P. Pokhilko,  S. Prager,  
+ A. Prociuk,  E. Ramos,  D. R. Rehn,  F. Rob,  M. Schneider,  N. Sergueev,  
+ S. M. Sharada,  S. Sharma,  D. W. Small,  T. Stauch,  T. Stein,  
+ Yu-Chuan Su,  A. J. W. Thom,  A. Tkatchenko,  T. Tsuchimochi,  N. M. Tubman,  
+ L. Vogt,  M. L. Vidal,  O. Vydrov,  M. A. Watson,  J. Wenzel,  
+ M. de Wergifosse,  T. A. Wesolowski,  A. White,  J. Witte,  A. Yamada,  
+ Jun Yang,  K. Yao,  S. Yeganeh,  S. R. Yost,  Zhi-Qiang You,  A. Zech,  
+ Igor Ying Zhang,  Xing Zhang,  Yan Zhao,  Ying Zhu,  B. R. Brooks,  
+ G. K. L. Chan,  C. J. Cramer,  M. S. Gordon,  W. J. Hehre,  A. Klamt,  
+ M. W. Schmidt,  C. D. Sherrill,  D. G. Truhlar,  A. Aspuru-Guzik,  R. Baer,  
+ A. T. Bell,  N. A. Besley,  Jeng-Da Chai,  A. E. DePrince, III,  
+ R. A. DiStasio Jr.,  A. Dreuw,  B. D. Dunietz,  T. R. Furlani,  
+ Chao-Ping Hsu,  Yousung Jung,  Jing Kong,  D. S. Lambrecht,  WanZhen Liang,  
+ C. Ochsenfeld,  V. A. Rassolov,  L. V. Slipchenko,  J. E. Subotnik,  
+ T. Van Voorhis,  J. M. Herbert,  A. I. Krylov,  P. M. W. Gill,  M. Head-Gordon
+
+ Contributors to earlier versions of Q-Chem not listed above: 
+ R. D. Adamson,  B. Austin,  J. Baker,  G. J. O. Beran,  K. Brandhorst,  
+ S. T. Brown,  E. F. C. Byrd,  A. K. Chakraborty,  C.-L. Cheng,  
+ Siu Hung Chien,  D. M. Chipman,  D. L. Crittenden,  H. Dachsel,  
+ R. J. Doerksen,  A. D. Dutoi,  L. Fusti-Molnar,  W. A. Goddard III,  
+ A. Golubeva-Zadorozhnaya,  S. R. Gwaltney,  G. Hawkins,  A. Heyden,  
+ S. Hirata,  G. Kedziora,  F. J. Keil,  C. Kelley,  Jihan Kim,  R. A. King,  
+ R. Z. Khaliullin,  P. P. Korambath,  W. Kurlancheek,  A. M. Lee,  M. S. Lee,  
+ S. V. Levchenko,  Ching Yeh Lin,  D. Liotard,  R. C. Lochan,  I. Lotan,  
+ P. E. Maslen,  N. Nair,  D. P. O'Neill,  D. Neuhauser,  E. Neuscamman,  
+ C. M. Oana,  R. Olson,  B. Peters,  R. Peverati,  P. A. Pieniazek,  
+ Y. M. Rhee,  J. Ritchie,  M. A. Rohrdanz,  E. Rosta,  N. J. Russ,  
+ H. F. Schaefer III,  N. E. Schultz,  N. Shenvi,  A. C. Simmonett,  A. Sodt,  
+ D. Stuck,  K. S. Thanthiriwatte,  V. Vanovschi,  Tao Wang,  A. Warshel,  
+ C. F. Williams,  Q. Wu,  X. Xu,  W. Zhang
+
+ Please cite Q-Chem as follows:
+ Y. Shao et al., Mol. Phys. 113, 184-215 (2015)
+ DOI: 10.1080/00268976.2014.952696
+
+ Q-Chem 5.1.1 for Intel X86 EM64T Linux
+
+ Parts of Q-Chem use Armadillo 8.300.2 (Tropical Shenanigans).
+ http://arma.sourceforge.net/
+
+ Q-Chem begins on Tue Nov 27 10:57:45 2018  
+
+Host: cub-0-30.local
+0
+
+     Scratch files written to /scr/c295_krishna/156882/qchem31491//
+ Aug318 |scratch|qcdevops|jenkins|workspace|build_RNUM -1
+Processing $rem in /usr/software/qchem_511/config/preferences.
+ MEM_TOTAL  2000 
+Input Ideriv = 2
+Curr. Ideriv = -1
+Max.  Ideriv = 2
+
+ Q-Chem warning in module libgen/rem_setup.C, line 1963:
+
+ Setting Thresh to 1e-14
+
+
+Checking the input file for inconsistencies... 	...done.
+
+--------------------------------------------------------------
+User input:
+--------------------------------------------------------------
+$molecule
+0 1
+N   -4.0288810    3.4171880   -1.2316400
+C   -2.6307440    3.7641090   -0.9872300
+H   -4.4759460    4.2004310   -1.7608860
+H   -4.5265420    3.3326330   -0.3149620
+C   -1.9028550    2.6662650   -0.2536350
+H   -2.5822730    4.6932140   -0.3790480
+H   -2.1240190    3.9414180   -1.9601150
+N   -0.5879190    2.8312130    0.0679860
+C    0.1790390    1.8422790    0.8192690
+H   -0.1381380    3.7240720   -0.1909720
+C    1.5143760    2.4414820    1.2255670
+N    2.4422300    2.7975160    0.2879460
+C    3.7379600    3.3816540    0.6236140
+H    2.2314490    2.6350300   -0.7087220
+C    4.8544260    2.4098720    0.2698340
+N    6.1473060    2.6782450    0.6155810
+C    7.2519310    1.7590760    0.3543910
+H    6.3531190    3.5704400    1.0874180
+C    8.5621350    2.4703560    0.6292800
+N    9.4576620    2.6722580   -0.3799980
+C   10.7343720    3.3445070   -0.1994110
+H    9.2268820    2.3404130   -1.3291440
+C   11.8859380    2.4477370   -0.5779720
+H   10.8803590    3.6731050    0.8513630
+H   10.7594680    4.2441920   -0.8482230
+O   13.1522490    2.9067170   -0.4988450
+H   13.3461420    3.8070140   -0.2023780
+O   -2.5021810    1.6501360    0.0715320
+O    1.7457420    2.5947820    2.4170200
+O    4.5804270    1.3698440   -0.3143750
+O    8.8006120    2.8665100    1.7625570
+O   11.6907300    1.3044590   -0.9612590
+C    0.3604520    0.5345110    0.0033550
+H   -0.3904670    1.6095220    1.7483970
+C    0.9874290   -0.5839110    0.7947140
+H    0.9608490    0.7230910   -0.9108850
+H   -0.6302090    0.1700760   -0.3326470
+C    2.2472860   -0.6231800    1.3586350
+N    2.4164160   -1.8125470    1.9690730
+H    2.9987400    0.1501260    1.3316570
+C    1.2601160   -2.4755080    1.7646380
+N    0.3766560   -1.7526080    1.0536600
+H    1.0671130   -3.4757440    2.1290420
+H   -0.5830000   -2.0458940    0.7645320
+C    3.8793890    4.7258540   -0.1150180
+H    3.8004510    3.5670760    1.7179290
+O    5.0449840    5.4111870    0.3100870
+H    3.0009720    5.3625360    0.1292300
+H    3.8662000    4.5106600   -1.2091640
+C    7.0923770    0.4820070    1.2341240
+H    7.2181750    1.4823340   -0.7212830
+C    8.1075710   -0.6791640    1.0508260
+H    6.0972560    0.0404300    1.0230890
+H    7.0821180    0.7785760    2.3063240
+C    9.5222760   -0.3599930    1.5524940
+H   10.0234760    0.4045210    0.9346550
+H   10.1504790   -1.2752180    1.5106880
+H    9.4865520   -0.0161200    2.6080920
+C    8.1454960   -1.1879220   -0.3949330
+H    7.7377480   -1.5112110    1.6914680
+H    8.5425580   -0.4101010   -1.0801000
+H    7.1257870   -1.4784720   -0.7259380
+H    8.8009500   -2.0819600   -0.4670100
+C    5.6437360    6.1921890   -0.7141080
+C    6.5912850    5.3340370   -1.5723780
+C    7.3320610    6.1571140   -2.5963140
+H    6.0306790    4.5310290   -2.0951110
+H    7.3261160    4.8515960   -0.8933500
+O    8.6776860    6.2610630   -2.5592300
+H    9.2055700    5.8299010   -1.8736130
+O    6.7161270    6.7282820   -3.4821700
+C   -2.1223090    7.8307690   -1.2693710
+C   -1.2832940    8.5406750   -2.2874340
+H   -2.0975390    6.7418830   -1.4738840
+H   -3.1762550    8.1793030   -1.3112650
+H   -1.7204590    8.0229860   -0.2524440
+N    0.0409410    8.2529920   -2.3939570
+C    0.8914220    8.9108220   -3.3690100
+H    0.4460930    7.5454090   -1.7603340
+C    2.3297060    8.4093620   -3.2613510
+H    0.8768390   10.0084550   -3.1905610
+H    0.5074800    8.7031610   -4.3917530
+S    3.3971400    9.2437320   -4.4748270
+H    2.3865810    7.3108490   -3.4196120
+H    2.7253140    8.6203980   -2.2459420
+H    2.9585610    8.4253720   -5.5335610
+O   -1.8008660    9.3749150   -3.0170140
+O    4.6747390    6.8502930   -1.5002720
+H    5.0190510    7.7598840   -1.6999050
+H    6.2639890    6.9558970   -0.1868670
+$end
+
+$rem
+BASIS  =  6-31G
+JOB_TYPE  =  Optimization
+METHOD  =  B3LYP
+SCF_CONVERGENCE  =  500
+SCF_ALGORITHM = DIIS_GDM
+$end
+--------------------------------------------------------------
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      N      -7.6248204704     2.6177805823     0.8701652217
+    2      C      -6.3934109847     1.9420627698     0.4677803123
+    3      H      -8.3647142215     1.8942966185     1.0203858297
+    4      H      -7.9455720642     3.2386632743     0.0912315451
+    5      C      -5.2624267295     2.9177152337     0.2622995273
+    6      H      -6.5680336407     1.3923628100    -0.4823816561
+    7      H      -6.1012840291     1.2167067143     1.2572322519
+    8      N      -4.0405013357     2.4559918311    -0.1293820088
+    9      C      -2.9056194414     3.3335869180    -0.3986609084
+   10      H      -3.9394571942     1.4409902318    -0.2910026217
+   11      C      -1.7932931426     2.5335568250    -1.0543508188
+   12      N      -1.1591091402     1.5262997070    -0.3834930517
+   13      C      -0.0882388553     0.7236009416    -0.9680595295
+   14      H      -1.4337099750     1.3259317614     0.5904805108
+   15      C       1.2257067737     1.0108574757    -0.2559868921
+   16      N       2.3967984353     0.4795049552    -0.7134937976
+   17      C       3.6947122054     0.7646197868    -0.1073439518
+   18      H       2.3639530075    -0.1496585982    -1.5284020529
+   19      C       4.7303760952    -0.1752981084    -0.6922134927
+   20      N       5.3745397551    -1.0709234521     0.1104592486
+   21      C       6.3791233303    -2.0051657363    -0.3717461033
+   22      H       5.1418271135    -1.1020260337     1.1150169113
+   23      C       7.6986451899    -1.8034980506     0.3295393753
+   24      H       6.5465236089    -1.9001438045    -1.4646149836
+   25      H       6.0291205664    -3.0394419938    -0.1747927888
+   26      O       8.7489379343    -2.5961099071     0.0310115423
+   27      H       8.6795758872    -3.3001736433    -0.6289165050
+   28      O      -5.4554923756     4.1156513901     0.4207861144
+   29      O      -1.4711834414     2.8147327201    -2.2005518586
+   30      O       1.2275952724     1.7419909468     0.7255802882
+   31      O       4.9734839343    -0.1252744674    -1.8907635516
+   32      O       7.8336929626    -0.9298715663     1.1725331700
+   33      C      -2.4204844837     4.0374507639     0.8967553310
+   34      H      -3.2444627040     4.1094025736    -1.1232898185
+   35      C      -1.3700404989     5.0891545369     0.6503743166
+   36      H      -2.0365255797     3.2943176615     1.6262774374
+   37      H      -3.2759502716     4.5492118383     1.3798684839
+   38      C      -0.1026691404     4.9184088969     0.1294094666
+   39      N       0.5177252933     6.1138923406     0.0874159923
+   40      H       0.3498505786     3.9952971091    -0.1969394685
+   41      C      -0.3800022811     6.9888160562     0.5843408769
+   42      N      -1.5333412887     6.3924157589     0.9346143655
+   43      H      -0.1919963940     8.0488887800     0.6911682874
+   44      H      -2.3765414967     6.8527602461     1.3440623828
+   45      C      -0.4837817502    -0.7626667815    -0.8843510649
+   46      H       0.0525548234     0.9961499643    -2.0365659322
+   47      O       0.4440677000    -1.5688247390    -1.5901924290
+   48      H      -1.4808441865    -0.8948854408    -1.3587161193
+   49      H      -0.5687338559    -1.0271085562     0.1956913251
+   50      C       4.0699462001     2.2586515001    -0.3468466653
+   51      H       3.6126653153     0.5667891089     0.9830373976
+   52      C       5.3719334573     2.8108055256     0.2954073498
+   53      H       3.2513126443     2.8884372144     0.0568870072
+   54      H       4.1038814521     2.4535689586    -1.4416191722
+   55      C       6.6611538355     2.2586548730    -0.3274663289
+   56      H       6.8052009867     1.1863207262    -0.1112302959
+   57      H       7.5393870697     2.7956355221     0.0901240448
+   58      H       6.6538344331     2.4156701150    -1.4270592636
+   59      C       5.3837946645     2.6314192874     1.8179617769
+   60      H       5.3757899060     3.9039957801     0.0846619368
+   61      H       5.4171609141     1.5561887676     2.0916104211
+   62      H       4.4779614797     3.0930002851     2.2653981199
+   63      H       6.2768474249     3.1286453578     2.2530962246
+   64      C       0.6216379177    -2.8561046818    -1.0167618350
+   65      C       1.6752077189    -2.8138723545     0.1053381872
+   66      C       1.9724824704    -4.1856683174     0.6571110756
+   67      H       1.3399951653    -2.1580675433     0.9359423758
+   68      H       2.6076426954    -2.3819112881    -0.3163009875
+   69      O       3.2059370258    -4.7237219787     0.5476790163
+   70      H       3.9286284728    -4.2606612521     0.1027917335
+   71      O       1.0962108983    -4.8187243269     1.2243294197
+   72      C      -7.2614358554    -1.7785045179    -1.0421021765
+   73      C      -6.8348499890    -3.0864699717    -0.4491301356
+   74      H      -6.9143938070    -0.9532662986    -0.3889134296
+   75      H      -8.3675149387    -1.7248461516    -1.1300968827
+   76      H      -6.8145665747    -1.6609854962    -2.0515913773
+   77      N      -5.5140746601    -3.3460684820    -0.2597412830
+   78      C      -5.0544060638    -4.5963925115     0.3166103420
+   79      H      -4.8243049022    -2.6288968851    -0.5357531175
+   80      C      -3.5301247647    -4.6270595353     0.4022812898
+   81      H      -5.3980857971    -5.4432602809    -0.3170726499
+   82      H      -5.4802642165    -4.7094829779     1.3375869209
+   83      S      -2.9546702696    -6.1994519335     1.1125959483
+   84      H      -3.1438787405    -3.7857751530     1.0171525917
+   85      H      -3.0953611998    -4.5238709014    -0.6138043704
+   86      H      -3.2399640636    -5.7935909991     2.4304983212
+   87      O      -7.6832461960    -3.9110190313    -0.1385390001
+   88      O      -0.6008268621    -3.3992275933    -0.5687581956
+   89      H      -0.5963981696    -4.3674129985    -0.7886610906
+   90      H       1.0260225809    -3.4975633934    -1.8358775355
+ ----------------------------------------------------------------
+ Molecular Point Group                 C1    NOp =  1
+ Largest Abelian Subgroup              C1    NOp =  1
+ Nuclear Repulsion Energy =  6152.4333542189 hartrees
+ There are      180 alpha and      180 beta electrons
+ Requested basis set is 6-31G
+ There are 227 shells and 506 basis functions
+
+ Total QAlloc Memory Limit   2000 MB
+ Mega-Array Size       188 MB
+ MEM_STATIC part       192 MB
+ A cutoff of  0.0D+00 yielded  25621 shell pairs
+ There are    128530 function pairs
+ 
+ -------------------------------------------------------
+ OpenMP Integral Computing Module                       
+ Release: version 1.0, May 2013, Q-Chem Inc. Pittsburgh 
+ -------------------------------------------------------
+ Integral Job Info:
+ Integral job number is                      11
+ Integral operator is                         1
+ short-range coefficients                     0
+ long-range coefficients              100000000
+ Omega coefficients                           0
+ if combine SR and LR in K                    0
+ Integral screening is                        0
+ Integral computing path is                   2
+ max size of driver memory is            800000
+ size of driver memory is                 45569
+ size of scratch memory is             14945700
+ max col of scratch BK array                289
+ max len of scratch array in speh3           22
+ max len of scratch index in speh4            8
+ max int batch size is                      520
+ min int batch size is                       52
+ fixed nKL is                                52
+ max L of basis functions is                  1
+ order of int derivative is                   0
+ number of shells is                        227
+ number of basis is                         506
+ number of cartesian basis is               506
+ number of contracted shell pairs         25621
+ number of primitive shell pairs         147803
+ maxK2 (contraction) of shell pair           36
+ max number of K2 of shell pair               1
+ max number of CS2 of shell pair           4058
+ max number of PS2 of shell pair          16086
+ mem total for path MDJ                  986498
+ -------------------------------------------------------
+ Smallest overlap matrix eigenvalue = 1.64E-03
+
+ Scale SEOQF with 1.000000e-02/1.000000e-02/1.000000e-01
+
+ Standard Electronic Orientation quadrupole field applied
+ Nucleus-field energy     =     0.0000000253 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ SAD guess density has 360.000001 electrons
+
+ -----------------------------------------------------------------------
+  General SCF calculation program by
+  Eric Jon Sundstrom, Paul Horn, Yuezhi Mao, Dmitri Zuev, Alec White,
+  David Stuck, Shaama M.S., Shane Yost, Joonho Lee, David Small,
+  Daniel Levine, Susi Lehtola, Hugh Burton, Evgeny Epifanovsky
+ -----------------------------------------------------------------------
+ Exchange:     0.2000 Hartree-Fock + 0.0800 Slater + 0.7200 B88
+ Correlation:  0.1900 VWN1RPA + 0.8100 LYP
+ Using SG-1 standard quadrature grid
+ using 8 threads for integral computing
+ -------------------------------------------------------
+ OpenMP Integral computing Module                
+ Release: version 1.0, May 2013, Q-Chem Inc. Pittsburgh 
+ -------------------------------------------------------
+ -------------------------------------------------------
+ OpenMP BLAS3 based DFT computing Module                
+ Release: version 1.0, May 2013, Q-Chem Inc. Pittsburgh 
+ -------------------------------------------------------
+
+ Q-Chem fatal error occurred in module 0, line  103:
+
+ Newton-Raphson did not converge in ShlRad
+
