@@ -76,4 +76,6 @@ $rem
    JOBTYPE           opt
    EXCHANGE        B97M-V            
    BASIS             6-31G*
+   SCF_ALGORITHM = DIIS_GDM  
+   SCF
 $end
